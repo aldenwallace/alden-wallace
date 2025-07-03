@@ -45,4 +45,15 @@ main.gallery {
   margin-top: 5px;
   font-size: 0.9em;
   color: #555;
+}.sidebar a {
+  color: black !important;       /* force black color */
+  font-weight: 700;               /* thick/bold font */
+  text-decoration: none;          /* remove underline */
+}
+
+.sidebar a:visited,
+.sidebar a:active,
+.sidebar a:hover,
+.sidebar a:focus {
+  color: black !important;       /* keep black on all states */
 }

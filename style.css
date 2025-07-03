@@ -45,7 +45,8 @@ main.gallery {
   margin-top: 5px;
   font-size: 0.9em;
   color: #555;
-}.sidebar a {
+}
+.sidebar a {
   color: black !important;       /* force black color */
   font-weight: 700;               /* thick/bold font */
   text-decoration: none;          /* remove underline */
@@ -57,3 +58,14 @@ main.gallery {
 .sidebar a:focus {
   color: black !important;       /* keep black on all states */
 }
+.sidebar nav ul li a,
+.sidebar nav ul li a:visited,
+.sidebar nav ul li a:hover,
+.sidebar nav ul li a:active,
+.sidebar nav ul li a:focus {
+  color: black !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+<link rel="stylesheet" href="style.css" />
